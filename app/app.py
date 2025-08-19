@@ -49,7 +49,7 @@ st.markdown(
 st.markdown(
     """
     📖 Detailed guides are available here:  
-    - 🌍 English: [User Guide (Google Doc)](YOUR_EN_GUIDE_LINK)  
+    - 🌍 English: [User Guide (Google Doc)](https://docs.google.com/document/d/1Q_cmL5kw4DrvHhLetdx9YNdkxBtujdwZ9wTDkRfxVmw/edit?pli=1&tab=t.0#heading=h.stp0wv5r313tK)  
     - 🇩🇪 Deutsch: [Benutzerhandbuch (Google Doc)](YOUR_DE_GUIDE_LINK)  
     """,
     unsafe_allow_html=True
@@ -121,7 +121,7 @@ with tab1:
 with tab2:
     up = st.file_uploader("Drop an Excel (.xlsx) or CSV", type=["xlsx","csv"])
     st.markdown(
-        "👉[Example] (link)",
+        "👉[Example](https://docs.google.com/spreadsheets/d/1vtBz0iGqAigzQEEoKz8rsiaGCGZZzNU-TeHATGbLU2g/edit?usp=sharing)",
         unsafe_allow_html=True
     )
 
