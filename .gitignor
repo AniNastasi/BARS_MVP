@@ -1,0 +1,45 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# === Virtual environment ===
+venv/
+.env/
+.venv/
+
+# === Jupyter Notebook ===
+.ipynb_checkpoints/
+*.ipynb_convert
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs & cache ===
+*.log
+*.pot
+*.mo
+*.cache/
+.cache/
+.pytest_cache/
+
+# === Streamlit ===
+.streamlit/
+
+# === Data files (optional, если не хочешь делиться данными) ===
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.json
