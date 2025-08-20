@@ -28,23 +28,9 @@ st.info("🔒 We do **not** store your data. Everything happens in your browser 
 FEEDBACK_URL = "https://example.com/feedback"
 
 # -------------------------
-# Call to Action + Guides
+# Disclaimer + Guides
 # -------------------------
-st.markdown(
-    """
-    <div style="background-color:#e6f2ff; padding:15px; border-radius:10px; border:1px solid #3399ff;">
-        <h3 style="color:#0059b3;">🚀 Do you find this tool useful?</h3>
-        <p style="font-size:15px; color:#000;">
-            If yes, and you would like to <b>participate in validation</b> 
-            and become a <b>co-author in a future publication</b>, 
-            please fill in this short questionnaire 👉 
-            <a href="YOUR_FORM_LINK" target="_blank"><b>Questionnaire Link</b></a>
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
+st.info("⚠️**Disclaimer:** This tool is an early prototype. It is intended for research and exploratory purposes only, not for clinical decision-making.")
 
 st.markdown(
     """
@@ -468,6 +454,24 @@ if st.button("Build PDF"):
             mime="application/pdf"
         )
         st.success("PDF ready.")
+
+# -------------------------
+# Call to Action 
+# -------------------------
+st.markdown(
+    """
+    <div style="background-color:#e6f2ff; padding:15px; border-radius:10px; border:1px solid #3399ff;">
+        <h3 style="color:#0059b3;">🚀 Do you find this tool useful?</h3>
+        <p style="font-size:15px; color:#000;">
+            If yes, and you would like to <b>participate in validation</b> 
+            and become a <b>co-author in a future publication</b>, 
+            please fill in this short questionnaire 👉 
+            <a href="YOUR_FORM_LINK" target="_blank"><b>Questionnaire Link</b></a>
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 st.divider()
 st.markdown("**Privacy:** We do not store your data on the server. Close the tab to clear your session.")
