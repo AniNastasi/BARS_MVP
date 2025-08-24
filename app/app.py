@@ -291,7 +291,6 @@ def means_by_treatment(df, bl_col, fu_col):
 # Actions: Calculate & Show charts
 # -------------------------
 
-st.subheader("Calculate")
 calc = st.button("Calculate", type="primary")
 charts = {}
 
@@ -381,7 +380,6 @@ if calc:
 # -------------------------
 # PDF Export
 # -------------------------
-st.subheader("Download PDF")
 if st.button("Build PDF"):
     df_scored = st.session_state.get("df_scored")
     charts = st.session_state.get("charts", {})
