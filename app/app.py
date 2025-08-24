@@ -25,8 +25,7 @@ st.title("Biologic Response BARS (MVP)")
 st.info("🔒 We do **not** store your data. Everything happens in your browser session.")
 
 # Feedback link (edit to your real form)
-FEEDBACK_URL = "https://example.com/feedback"
-
+FEEDBACK_URL = "https://bit.ly/4mPjo17"
 # -------------------------
 # Disclaimer + Guides
 # -------------------------
@@ -36,7 +35,7 @@ st.markdown(
     """
     📖 Detailed guides are available here:  
     - 🌍 English: [User Guide (Google Doc)](https://docs.google.com/document/d/1Q_cmL5kw4DrvHhLetdx9YNdkxBtujdwZ9wTDkRfxVmw/edit?pli=1&tab=t.0#heading=h.stp0wv5r313tK)  
-    - 🇩🇪 Deutsch: [Benutzerhandbuch (Google Doc)](YOUR_DE_GUIDE_LINK)  
+    - 🇩🇪 Deutsch: [Benutzerhandbuch (Google Doc)](https://docs.google.com/document/d/10OtFdVOHlg203ageKtMVAOsUKLbUHUcV71KepEatlS0/edit?usp=sharing)  
     """,
     unsafe_allow_html=True
 )
@@ -107,7 +106,7 @@ with tab1:
 with tab2:
     up = st.file_uploader("Drop an Excel (.xlsx) or CSV", type=["xlsx","csv"])
     st.markdown(
-        "👉[Example](https://docs.google.com/spreadsheets/d/1vtBz0iGqAigzQEEoKz8rsiaGCGZZzNU-TeHATGbLU2g/edit?usp=sharing)",
+        "👉[Example](https://docs.google.com/spreadsheets/d/1TJ2y93y5zY5uar0b_7wC4dXkjEJffSuUHC_bG19T474/edit?usp=sharing)",
         unsafe_allow_html=True
     )
 
@@ -443,7 +442,7 @@ if st.button("Build PDF"):
 
         # Feedback
         flow.append(Spacer(1, 12))
-        flow.append(Paragraph(f"Feedback form: <u>{FEEDBACK_URL}</u>", styles["Normal"]))
+        flow.append(Paragraph(f'Feedback form: <a href="{FEEDBACK_URL}">Click here</a>', styles["Normal"]))
 
         doc.build(flow)
         pdf_bytes = pdf_buffer.getvalue()
@@ -461,12 +460,12 @@ if st.button("Build PDF"):
 st.markdown(
     """
     <div style="background-color:#e6f2ff; padding:15px; border-radius:10px; border:1px solid #3399ff;">
-        <h3 style="color:#0059b3;">🚀 Do you find this tool useful?</h3>
+        <h3 style="color:#0059b3;">Do you find this tool useful?</h3>
         <p style="font-size:15px; color:#000;">
             If yes, and you would like to <b>participate in validation</b> 
             and become a <b>co-author in a future publication</b>, 
             please fill in this short questionnaire 👉 
-            <a href="YOUR_FORM_LINK" target="_blank"><b>Questionnaire Link</b></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbHHtazLwS3LLaFwR3O--6Ew3vIX5NkFjBDboCPW0OU45gWQ/viewform?usp=header" target="_blank"><b>Questionnaire Link</b></a>
         </p>
     </div>
     """,
