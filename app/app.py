@@ -25,7 +25,7 @@ st.title("Biologic Response BARS (MVP)")
 st.info("🔒 We do **not** store your data. Everything happens in your browser session.")
 
 # Feedback link (edit to your real form)
-FEEDBACK_URL = "https://bit.ly/4mPjo17"
+FEEDBACK_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdbHHtazLwS3LLaFwR3O--6Ew3vIX5NkFjBDboCPW0OU45gWQ/viewform?usp=header"
 # -------------------------
 # Disclaimer + Guides
 # -------------------------
