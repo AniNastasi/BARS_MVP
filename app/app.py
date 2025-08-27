@@ -34,8 +34,8 @@ st.info("⚠️**Disclaimer:** This tool is an early prototype. It is intended f
 st.markdown(
     """
     📖 Detailed guides are available here:  
-    - 🌍 English: [User Guide (Google Doc)](https://docs.google.com/document/d/1Q_cmL5kw4DrvHhLetdx9YNdkxBtujdwZ9wTDkRfxVmw/edit?pli=1&tab=t.0#heading=h.stp0wv5r313tK)  
-    - 🇩🇪 Deutsch: [Benutzerhandbuch (Google Doc)](https://docs.google.com/document/d/10OtFdVOHlg203ageKtMVAOsUKLbUHUcV71KepEatlS0/edit?usp=sharing)  
+    - 🌍 English: [User Guide](https://drive.google.com/file/d/1CqWhrFEElcWFP575nTliGznfRWDU0RGi/view?usp=sharing)  
+    - 🇩🇪 Deutsch: [Benutzerhandbuch](https://drive.google.com/file/d/1OzNWcKrz3ZEmYSUPYyN3FfBi_nZNwd0M/view?usp=sharing)  
     """,
     unsafe_allow_html=True
 )
